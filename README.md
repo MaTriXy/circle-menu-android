@@ -1,9 +1,11 @@
 [![header](./header.png)](https://ramotion.com?utm_source=gthb&utm_medium=special&utm_campaign=circle-menu-android-logo)
-![Animation](./preview.gif)
+<img src="https://github.com/Ramotion/circle-menu-android/blob/master/preview.gif" width="600" height="450" />
+<br><br/>
 
 # CircleMenu for Android
 [![Twitter](https://img.shields.io/badge/Twitter-@Ramotion-blue.svg?style=flat)](http://twitter.com/Ramotion)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/42eb7b00b93645c0812c045ab26cb3b7)](https://www.codacy.com/app/dvg4000/circle-menu-android?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ramotion/circle-menu-android&amp;utm_campaign=Badge_Grade)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/Ramotion)
 
 # Check this library on other platforms:
 <a href="https://github.com/Ramotion/circle-menu"> 
@@ -14,36 +16,34 @@
 
 **Looking for developers for your project?** 
 
-<a href="https://ramotion.com?utm_source=gthb&utm_medium=special&utm_campaign=circle-menu-android-contact-us/#Get_in_Touch" > <img src="https://github.com/Ramotion/navigation-stack/raw/master/contact_our_team@2x.png" width="150" height="30"></a>
+<a href="mailto:alex.a@ramotion.com?subject=Project%20inquiry%20from%20Github" > <img src="https://github.com/Ramotion/navigation-stack/raw/master/contact_our_team@2x.png" width="150" height="30"></a>
 
 
 The [Android mockup](https://store.ramotion.com/product/samsung-galaxy-s8-mockups?utm_source=gthb&utm_medium=special&utm_campaign=circle-menu-android) available [here](https://store.ramotion.com/product/samsung-galaxy-s8-mockups?utm_source=gthb&utm_medium=special&utm_campaign=circle-menu-android).
 
 ## Requirements
 ​
-- Android 4.4 KitKat (API lvl 19) or greater
+- Android 4.1 Jelly Bean (API lvl 16) or greater
 - Your favorite IDE
 
 ## Installation
 ​
-<!-- TODO: add url -->
-Just download the package from [here]() and add it to your project classpath, or just use the maven repo:
+Just download the package from [here](http://central.maven.org/maven2/com/ramotion/circlemenu/circle-menu/0.3.1/circle-menu-0.3.1.aar) and add it to your project classpath, or just use the maven repo:
 
-<!-- TODO: add package -->
 Gradle:
 ```groovy
-compile 'com.ramotion.circlemenu:circle-menu:0.1.0'
+compile 'com.ramotion.circlemenu:circle-menu:0.3.1'
 ```
 SBT:
 ```scala
-libraryDependencies += "com.ramotion.circlemenu" % "circle-menu" % "0.1.0"
+libraryDependencies += "com.ramotion.circlemenu" % "circle-menu" % "0.3.1"
 ```
 Maven:
 ```xml
 <dependency>
 	<groupId>com.ramotion.circlemenu</groupId>
 	<artifactId>circle-menu</artifactId>
-	<version>0.1.0</version>
+	<version>0.3.1</version>
 </dependency>
 ```
 ​
@@ -121,6 +121,9 @@ menu.setEventListener(new CircleMenuView.EventListener() {
 });
 ```
 
+You can use `open(boolean animate)` and `close(boolean animate)` methods,
+to open and close menu programmatically
+
 Here are the attributes you can specify through XML or related setters:
 * `button_icons` - Array of buttons icons.
 * `button_colors` - Array of buttons colors.
@@ -132,21 +135,26 @@ Here are the attributes you can specify through XML or related setters:
 * `duration_close` - Menu closing animation duration.
 * `distance` - Distance between center button and buttons
 
+<br>
+
+This library is a part of a <a href="https://github.com/Ramotion/android-ui-animation-components-and-libraries"><b>selection of our best UI open-source projects.</b></a>
+
 ## License
 ​
 CircleMenu for Android is released under the MIT license.
-See [LICENSE](./LICENSE.md) for details.
+See [LICENSE](./LICENSE) for details.
 
 # Get the Showroom App for Android to give it a try
 Try our UI components in our mobile app. Contact us if interested.
 
 <a href="https://play.google.com/store/apps/details?id=com.ramotion.showroom" >
 <img src="https://raw.githubusercontent.com/Ramotion/react-native-circle-menu/master/google_play@2x.png" width="104" height="34"></a>
-<a href="https://ramotion.com/?utm_source=gthb&utm_medium=special&utm_campaign=circle-menu-android-contact-us/#Get_in_Touch"> 
+<a href="mailto:alex.a@ramotion.com?subject=Project%20inquiry%20from%20Github"> 
 <img src="https://github.com/ramotion/gliding-collection/raw/master/contact_our_team@2x.png" width="187" height="34"></a>
 <br>
 <br>
+
 ## Follow us
 
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=https://github.com/Ramotion/circle-menu-android)
-[![Twitter Follow](https://img.shields.io/twitter/follow/ramotion.svg?style=social)](https://twitter.com/ramotion)
+<a href="https://goo.gl/rPFpid" >
+<img src="https://i.imgur.com/ziSqeSo.png/" width="156" height="28"></a>
